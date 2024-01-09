@@ -1,0 +1,45 @@
+.banner{
+   background-image: url('/resources/Banner\ Image.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+gap: 20px;
+   background-position: center;
+   object-fit: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 1320px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #070211, #07021100;
+margin-top: 150px;
+
+}
+.banner-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+
+}
+.banner-text{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+margin-top: 5px;
+}
+#down{
+    position: top;
+}
+.main{
+margin-top: 20px;
+}
